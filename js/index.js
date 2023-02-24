@@ -35,4 +35,12 @@ const displayData=(data)=>{
 
 }
 
+const searchLoadData=()=>{
+    const result = document.getElementById("search-field").value;
+    loadData(result);
+    document.getElementById("search-field").value="";
+}
+
+
+
 loadData("fish");
