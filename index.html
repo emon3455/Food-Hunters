@@ -38,12 +38,12 @@
             </h2>
 
             <p class="text-white w-full md:w-75">
-                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humou.
+                This is a food restaurant website where you can order any king of food which is available in our store you can just search you meal and find it out and see the details. 
             </p>
 
             <div class="input-group mb-3 w-75">
                 <input id="search-field" type="text" class="form-control" placeholder="Search Here" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <span onclick="searchLoadData()" class="input-group-text bg-warning" id="basic-addon2">Search</span>
+                <button onclick="searchLoadData()" class="input-group-text bg-warning hover:bg-danger" id="basic-addon2">Search</button>
             </div>
 
         </div>
@@ -57,7 +57,7 @@
 
         <section>
 
-            <h2 class="fw-bold display-6 text-center mb-2">Your Favourite Food</h2>
+            <h2 class="fw-bold display-6 text-center mb-3">Your Favourite Food</h2>
 
             <div id="card-container" class="row row-cols-1 row-cols-md-2 g-4">
 
@@ -69,6 +69,28 @@
                 <button class="btn btn-warning fw-bold">
                     Show All
                 </button>
+            </div>
+
+        </section>
+
+        <section>
+
+            <!-- Modal -->
+            <div class="modal fade" id="foodDetails" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div id="meal-thum" class="modal-body ">
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </section>
