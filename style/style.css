@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    background-image: url(../images/banner_1.png);
+    background-color: #696969;
+    height: 80vh;
+    background-blend-mode: multiply;
+}
